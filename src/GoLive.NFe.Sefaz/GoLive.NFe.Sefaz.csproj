@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F4B17D36-6A4E-49CA-8CB8-354DFCA96251}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GoLive.NFe.Sefaz</RootNamespace>
+    <AssemblyName>GoLive.NFe.Sefaz</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Exceptions\SefazException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SefazAutorizacao.cs" />
+    <Compile Include="SefazCancelamento.cs" />
+    <Compile Include="SefazCCe.cs" />
+    <Compile Include="SefazConsultaCadastro.cs" />
+    <Compile Include="SefazConsultaNFe.cs" />
+    <Compile Include="SefazEnvioNFe.cs" />
+    <Compile Include="SefazEvento.cs" />
+    <Compile Include="SefazInfProc.cs" />
+    <Compile Include="SefazInutilizacao.cs" />
+    <Compile Include="SefazRetAutorizacao.cs" />
+    <Compile Include="SefazStatusServico.cs" />
+    <Compile Include="TSoap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GoLive.NFe.Certificados\GoLive.NFe.Certificados.csproj">
+      <Project>{a5c43da2-cb9a-4783-aec6-5fba6b24ccd9}</Project>
+      <Name>GoLive.NFe.Certificados</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoLive.NFe.Leiaute\GoLive.NFe.Leiaute.csproj">
+      <Project>{9d63ec5b-b9ed-41dc-b345-66a0f3cbb3de}</Project>
+      <Name>GoLive.NFe.Leiaute</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoLive.NFe.ResponseParser\GoLive.NFe.ResponseParser.csproj">
+      <Project>{300251d4-0ff8-4823-976a-59c1564528c7}</Project>
+      <Name>GoLive.NFe.ResponseParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoLive.NFe.SOAP\GoLive.NFe.SOAP.csproj">
+      <Project>{c6d49dc2-73de-4d06-b11f-a33890dcc076}</Project>
+      <Name>GoLive.NFe.SOAP</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

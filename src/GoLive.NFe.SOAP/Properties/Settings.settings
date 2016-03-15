@@ -1,0 +1,327 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GoLive.NFe.SOAP.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="am_hom_statusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homnfe.sefaz.am.gov.br/services2/services/NfeStatusServico2?wsdl</Value>
+    </Setting>
+    <Setting Name="ba_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.sefaz.ba.gov.br/webservices/NfeStatusServico/NfeStatusServico.asmx</Value>
+    </Setting>
+    <Setting Name="ce_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfeh.sefaz.ce.gov.br/nfe2/services/NfeStatusServico2?wsdl</Value>
+    </Setting>
+    <Setting Name="go_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homolog.sefaz.go.gov.br/nfe/services/v2/NfeStatusServico2?wsdl</Value>
+    </Setting>
+    <Setting Name="mg_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.fazenda.mg.gov.br/nfe2/services/NfeStatusServico2?wsdl</Value>
+    </Setting>
+    <Setting Name="ms_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.ms.gov.br/homologacao/services2/NfeStatusServico2?wsdl</Value>
+    </Setting>
+    <Setting Name="pr_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.pr.gov.br/nfe/NFeStatusServico3?wsdl</Value>
+    </Setting>
+    <Setting Name="rs_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefaz.rs.gov.br/ws/NfeStatusServico/NfeStatusServico2.asmx</Value>
+    </Setting>
+    <Setting Name="sp_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/nfestatusservico2.asmx</Value>
+    </Setting>
+    <Setting Name="svan_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.sefazvirtual.fazenda.gov.br/NfeStatusServico2/NfeStatusServico2.asmx</Value>
+    </Setting>
+    <Setting Name="svrs_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefazvirtual.rs.gov.br/ws/NfeStatusServico/NfeStatusServico2.asmx</Value>
+    </Setting>
+    <Setting Name="am_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homnfe.sefaz.am.gov.br/services2/services/NfeAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="ba_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.sefaz.ba.gov.br/webservices/NfeAutorizacao/NfeAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="ce_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfeh.sefaz.ce.gov.br/nfe2/services/NfeAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="go_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homolog.sefaz.go.gov.br/nfe/services/v2/NfeAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="mg_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.fazenda.mg.gov.br/nfe2/services/NfeAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="ms_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.ms.gov.br/homologacao/services2/NfeAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="mt_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.sefaz.mt.gov.br/nfews/v2/services/NfeAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="pe_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NfeAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="pr_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.pr.gov.br/nfe/NFeAutorizacao3?wsdl</Value>
+    </Setting>
+    <Setting Name="rs_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefaz.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="sp_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/nfeautorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="svan_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.sefazvirtual.fazenda.gov.br/NfeAutorizacao/NfeAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="svrs_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefazvirtual.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="ce_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfeh.sefaz.ce.gov.br/nfe2/services/NfeRetAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="go_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homolog.sefaz.go.gov.br/nfe/services/v2/NfeRetAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="mg_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.fazenda.mg.gov.br/nfe2/services/NfeRetAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="ms_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.ms.gov.br/homologacao/services2/NfeRetAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="mt_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.sefaz.mt.gov.br/nfews/v2/services/NfeRetAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="pe_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NfeRetAutorizacao?wsdl</Value>
+    </Setting>
+    <Setting Name="pe_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NfeStatusServico2?wsdl</Value>
+    </Setting>
+    <Setting Name="am_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.sefaz.ba.gov.br/webservices/NfeRetAutorizacao/NfeRetAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="pr_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.pr.gov.br/nfe/NFeRetAutorizacao3?wsdl</Value>
+    </Setting>
+    <Setting Name="rs_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefaz.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="sp_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/nferetautorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="svan_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.sefazvirtual.fazenda.gov.br/NfeRetAutorizacao/NfeRetAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="svrs_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefazvirtual.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="am_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homnfe.sefaz.am.gov.br/services2/services/NfeConsulta2?wsdl</Value>
+    </Setting>
+    <Setting Name="ba_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.sefaz.ba.gov.br/webservices/nfenw/CadConsultaCadastro2.asmx</Value>
+    </Setting>
+    <Setting Name="ce_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfeh.sefaz.ce.gov.br/nfe2/services/NfeConsulta2?wsdl</Value>
+    </Setting>
+    <Setting Name="go_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homolog.sefaz.go.gov.br/nfe/services/v2/NfeConsulta2?wsdl</Value>
+    </Setting>
+    <Setting Name="mg_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.fazenda.mg.gov.br/nfe2/services/NfeConsulta2?wsdl</Value>
+    </Setting>
+    <Setting Name="ms_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.ms.gov.br/homologacao/services2/NfeConsulta2?wsdl</Value>
+    </Setting>
+    <Setting Name="mt_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.sefaz.mt.gov.br/nfews/v2/services/NfeConsulta2?wsdl</Value>
+    </Setting>
+    <Setting Name="pe_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NfeConsulta2</Value>
+    </Setting>
+    <Setting Name="pr_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.pr.gov.br/nfe/NFeConsulta3?wsdl</Value>
+    </Setting>
+    <Setting Name="rs_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefaz.rs.gov.br/ws/NfeConsulta/NfeConsulta2.asmx</Value>
+    </Setting>
+    <Setting Name="sp_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/nfeconsulta2.asmx</Value>
+    </Setting>
+    <Setting Name="svan_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.sefazvirtual.fazenda.gov.br/NfeConsulta2/NfeConsulta2.asmx</Value>
+    </Setting>
+    <Setting Name="svrs_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefazvirtual.rs.gov.br/ws/NfeConsulta/NfeConsulta2.asmx</Value>
+    </Setting>
+    <Setting Name="am_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homnfe.sefaz.am.gov.br/services2/services/NfeInutilizacao2?wsdl</Value>
+    </Setting>
+    <Setting Name="ce_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfeh.sefaz.ce.gov.br/nfe2/services/NfeInutilizacao2?wsdl</Value>
+    </Setting>
+    <Setting Name="go_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homolog.sefaz.go.gov.br/nfe/services/v2/NfeInutilizacao2?wsdl</Value>
+    </Setting>
+    <Setting Name="mg_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.fazenda.mg.gov.br/nfe2/services/NfeInutilizacao2?wsdl</Value>
+    </Setting>
+    <Setting Name="ms_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.ms.gov.br/homologacao/services2/NfeInutilizacao2?wsdl</Value>
+    </Setting>
+    <Setting Name="mt_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.sefaz.mt.gov.br/nfews/v2/services/NfeInutilizacao2?wsdl</Value>
+    </Setting>
+    <Setting Name="pe_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NfeInutilizacao2?wsdl</Value>
+    </Setting>
+    <Setting Name="pr_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.pr.gov.br/nfe/NFeInutilizacao3?wsdl</Value>
+    </Setting>
+    <Setting Name="rs_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefaz.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao2.asmx</Value>
+    </Setting>
+    <Setting Name="sp_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/nfeinutilizacao2.asmx</Value>
+    </Setting>
+    <Setting Name="svan_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.sefazvirtual.fazenda.gov.br/NfeInutilizacao2/NfeInutilizacao2.asmx</Value>
+    </Setting>
+    <Setting Name="svrs_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefazvirtual.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao2.asmx</Value>
+    </Setting>
+    <Setting Name="am_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homnfe.sefaz.am.gov.br/services2/services/RecepcaoEvento?wsdl</Value>
+    </Setting>
+    <Setting Name="ba_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.sefaz.ba.gov.br/webservices/sre/recepcaoevento.asmx</Value>
+    </Setting>
+    <Setting Name="ce_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfeh.sefaz.ce.gov.br/nfe2/services/RecepcaoEvento?wsdl</Value>
+    </Setting>
+    <Setting Name="go_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homolog.sefaz.go.gov.br/nfe/services/v2/RecepcaoEvento?wsdl</Value>
+    </Setting>
+    <Setting Name="mg_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.fazenda.mg.gov.br/nfe2/services/RecepcaoEvento?wsdl</Value>
+    </Setting>
+    <Setting Name="ms_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.ms.gov.br/homologacao/services2/RecepcaoEvento?wsdl</Value>
+    </Setting>
+    <Setting Name="mt_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.sefaz.mt.gov.br/nfews/v2/services/RecepcaoEvento?wsdl</Value>
+    </Setting>
+    <Setting Name="pe_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/RecepcaoEvento?wsdl</Value>
+    </Setting>
+    <Setting Name="pr_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.pr.gov.br/nfe/NFeRecepcaoEvento?wsdl</Value>
+    </Setting>
+    <Setting Name="rs_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefaz.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx</Value>
+    </Setting>
+    <Setting Name="sp_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/recepcaoevento.asmx</Value>
+    </Setting>
+    <Setting Name="svan_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.sefazvirtual.fazenda.gov.br/RecepcaoEvento/RecepcaoEvento.asmx</Value>
+    </Setting>
+    <Setting Name="ba_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.sefaz.ba.gov.br/webservices/NfeInutilizacao/NfeInutilizacao.asmx</Value>
+    </Setting>
+    <Setting Name="ba_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.sefaz.ba.gov.br/webservices/NfeRetAutorizacao/NfeRetAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="mt_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.sefaz.mt.gov.br/nfews/v2/services/NfeStatusServico2?wsdl</Value>
+    </Setting>
+    <Setting Name="svrs_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.sefazvirtual.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx</Value>
+    </Setting>
+    <Setting Name="am_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homnfe.sefaz.am.gov.br/services2/services/cadconsultacadastro2?wsdl</Value>
+    </Setting>
+    <Setting Name="ba_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.sefaz.ba.gov.br/webservices/nfenw/CadConsultaCadastro2.asmx</Value>
+    </Setting>
+    <Setting Name="ce_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfeh.sefaz.ce.gov.br/nfe2/services/CadConsultaCadastro2?wsdl</Value>
+    </Setting>
+    <Setting Name="go_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homolog.sefaz.go.gov.br/nfe/services/v2/CadConsultaCadastro2?wsdl</Value>
+    </Setting>
+    <Setting Name="mg_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hnfe.fazenda.mg.gov.br/nfe2/services/cadconsultacadastro2?wsdl</Value>
+    </Setting>
+    <Setting Name="ma_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://sistemas.sefaz.ma.gov.br/wscadastro/CadConsultaCadastro2?wsdl</Value>
+    </Setting>
+    <Setting Name="ms_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.ms.gov.br/homologacao/services2/CadConsultaCadastro2?wsdl</Value>
+    </Setting>
+    <Setting Name="mt_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.sefaz.mt.gov.br/nfews/v2/services/CadConsultaCadastro2?wsdl</Value>
+    </Setting>
+    <Setting Name="pr_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.pr.gov.br/nfe/CadConsultaCadastro2?wsdl</Value>
+    </Setting>
+    <Setting Name="rs_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://cad.sefazrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro2.asmx</Value>
+    </Setting>
+    <Setting Name="sp_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfe.fazenda.sp.gov.br/ws/cadconsultacadastro2.asmx</Value>
+    </Setting>
+    <Setting Name="svrs_hom_ConsultaCadastro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro2.asmx</Value>
+    </Setting>
+    <Setting Name="an_hom_DownloadNFe" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.nfe.fazenda.gov.br/NfeDownloadNF/NfeDownloadNF.asmx</Value>
+    </Setting>
+    <Setting Name="svcan_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.svc.fazenda.gov.br/RecepcaoEvento/RecepcaoEvento.asmx</Value>
+    </Setting>
+    <Setting Name="svcan_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.svc.fazenda.gov.br/NfeConsulta2/NfeConsulta2.asmx</Value>
+    </Setting>
+    <Setting Name="svcan_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.svc.fazenda.gov.br/NfeStatusServico2/NfeStatusServico2.asmx</Value>
+    </Setting>
+    <Setting Name="svcan_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.svc.fazenda.gov.br/NfeAutorizacao/NfeAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="svcan_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hom.svc.fazenda.gov.br/NfeRetAutorizacao/NfeRetAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="svcrs_hom_RecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx</Value>
+    </Setting>
+    <Setting Name="svcrs_hom_NFeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfe-homologacao.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao2.asmx</Value>
+    </Setting>
+    <Setting Name="svcrs_hom_ConsultaProtocolo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfe-homologacao.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta2.asmx</Value>
+    </Setting>
+    <Setting Name="svcrs_hom_StatusServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfe-homologacao.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico2.asmx</Value>
+    </Setting>
+    <Setting Name="svcrs_hom_NFeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfe-homologacao.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="svcrs_hom_NFeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://nfe-homologacao.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao.asmx</Value>
+    </Setting>
+    <Setting Name="sp_hom_NFCeAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfce.fazenda.sp.gov.br/ws/nfeautorizacao.asmx </Value>
+    </Setting>
+    <Setting Name="sp_hom_NFCeRetAutorizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfce.fazenda.sp.gov.br/ws/nferetautorizacao.asmx </Value>
+    </Setting>
+    <Setting Name="sp_hom_NFCeInutilizacao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfce.fazenda.sp.gov.br/ws/nfeinutilizacao2.asmx </Value>
+    </Setting>
+    <Setting Name="sp_hom_NFCeConsulta" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfce.fazenda.sp.gov.br/ws/nfeconsulta2.asmx </Value>
+    </Setting>
+    <Setting Name="sp_hom_NFCeRecepcaoEvento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://homologacao.nfce.fazenda.sp.gov.br/ws/recepcaoevento.asmx </Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
